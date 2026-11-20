@@ -1,8 +1,9 @@
 // Leonida Trophy Guide — offline tracker for the 55 GTA VI trophies.
-// State (earned ticks, counters, spoiler shield) lives in localStorage; the only
-// file ever fetched is data/trophies.json beside this script. Views are
-// deep-linkable: #roadmap, #trophy-<id>, #filter-missable, #spoiler=1
-// (combine the last two as #filter-missable&spoiler=1).
+// State (earned ticks, counters, personal notes, spoiler shield) lives in
+// localStorage; the only file ever fetched is data/trophies.json beside this
+// script. Views are deep-linkable: #roadmap, #planner, #trophy-<id>,
+// #filter-missable, #spoiler=1 (combine the last two as
+// #filter-missable&spoiler=1).
 
 const STORE_KEY = 'leonida-trophy-guide-v1';
 const GRADE_ORDER = { platinum: 0, gold: 1, silver: 2, bronze: 3 };
@@ -32,18 +33,26 @@ const els = {
   shownCount: document.getElementById('shown-count'),
   checklistView: document.getElementById('checklist-view'),
   roadmapView: document.getElementById('roadmap-view'),
+  plannerView: document.getElementById('planner-view'),
   controls: document.getElementById('controls'),
   tabChecklist: document.getElementById('tab-checklist'),
   tabRoadmap: document.getElementById('tab-roadmap'),
+  tabPlanner: document.getElementById('tab-planner'),
   roadmapIntro: document.getElementById('roadmap-intro'),
+  platinumPlan: document.getElementById('platinum-plan'),
   missablePanel: document.getElementById('missable-panel'),
   roadmapStages: document.getElementById('roadmap-stages'),
+  plannerPanel: document.getElementById('planner-panel'),
+  plannerList: document.getElementById('planner-list'),
   methodology: document.getElementById('methodology'),
 };
 
 const doc = await (await fetch('data/trophies.json')).json();
 const trophies = doc.trophies;
 const byId = new Map(trophies.map((t) => [t.id, t]));
+const roadmapOrder = doc.roadmap.stages.flatMap((s) => s.trophyIds);
+const stageOf = new Map();
+for (const s of doc.roadmap.stages) for (const id of s.trophyIds) stageOf.set(id, s);
 
 let state = loadState();
 let kindFilter = 'all';
@@ -51,7 +60,7 @@ let openGuideId = null;
 let deepLinkedId = null;
 
 function loadState() {
-  const fresh = { earned: new Set(), counts: {}, spoiler: false };
+  const fresh = { earned: new Set(), counts: {}, notes: {}, spoiler: false };
   try {
     const raw = localStorage.getItem(STORE_KEY);
     if (!raw) return fresh;
@@ -60,6 +69,7 @@ function loadState() {
     return {
       earned: new Set(Array.isArray(parsed.earned) ? parsed.earned : []),
       counts: parsed.counts && typeof parsed.counts === 'object' ? parsed.counts : {},
+      notes: parsed.notes && typeof parsed.notes === 'object' ? parsed.notes : {},
       spoiler: !!parsed.spoiler,
     };
   } catch {
@@ -71,6 +81,7 @@ function saveState() {
   localStorage.setItem(STORE_KEY, JSON.stringify({
     earned: [...state.earned],
     counts: state.counts,
+    notes: state.notes,
     spoiler: state.spoiler,
   }));
 }
@@ -85,6 +96,12 @@ function formatCount(t, n) {
 
 function formatTarget(t) {
   return t.count >= 10000 ? '$' + t.count.toLocaleString('en-US') : String(t.count);
+}
+
+function counterText(t) {
+  if (!t.count) return '';
+  const n = Math.min(Math.max(Number(state.counts[t.id]) || 0, 0), t.count);
+  return `Counter: ${formatCount(t, n)} of ${formatTarget(t)}`;
 }
 
 /* ---------- header ---------- */
@@ -276,6 +293,30 @@ function buildGuidePanel(t) {
   guideH.textContent = 'Guide — in our own words';
   const p = document.createElement('p');
   p.textContent = t.guide;
+  panel.append(stepsH, ol, guideH, p);
+  if (t.unlock) {
+    const unlock = document.createElement('p');
+    unlock.className = 'unlock-line';
+    const b = document.createElement('b');
+    b.textContent = 'When it unlocks: ';
+    unlock.append(b, t.unlock);
+    panel.append(unlock);
+  }
+  if (t.pitfalls) {
+    const pitfalls = document.createElement('p');
+    pitfalls.className = 'pitfalls-line';
+    const b = document.createElement('b');
+    b.textContent = 'Pitfalls: ';
+    pitfalls.append(b, t.pitfalls);
+    panel.append(pitfalls);
+  }
+  if (t.missableNote) {
+    const noteBox = document.createElement('div');
+    noteBox.className = 'missable-note';
+    noteBox.textContent = t.missableNote;
+    panel.append(noteBox);
+  }
+  panel.append(buildNoteBox(t));
   const sources = document.createElement('div');
   sources.className = 'sources';
   const srcLabel = document.createElement('span');
@@ -295,15 +336,30 @@ function buildGuidePanel(t) {
     ul.append(li);
   }
   sources.append(srcLabel, ul);
-  panel.append(stepsH, ol, guideH, p);
-  if (t.missableNote) {
-    const noteBox = document.createElement('div');
-    noteBox.className = 'missable-note';
-    noteBox.textContent = t.missableNote;
-    panel.append(noteBox);
-  }
   panel.append(sources);
   return panel;
+}
+
+function buildNoteBox(t) {
+  const box = document.createElement('div');
+  box.className = 'note-box';
+  const label = document.createElement('label');
+  label.textContent = 'Your notes';
+  label.htmlFor = `note-${t.id}`;
+  const area = document.createElement('textarea');
+  area.id = `note-${t.id}`;
+  area.placeholder = 'Your own note for this trophy — a route, a reminder, where you left off…';
+  area.value = typeof state.notes[t.id] === 'string' ? state.notes[t.id] : '';
+  area.addEventListener('input', () => {
+    const v = area.value;
+    if (v.trim()) state.notes[t.id] = v; else delete state.notes[t.id];
+    saveState();
+  });
+  const hint = document.createElement('p');
+  hint.className = 'hint';
+  hint.textContent = 'Saved in this browser with your progress, and carried in Export / Import.';
+  box.append(label, area, hint);
+  return box;
 }
 
 function renderChecklist() {
@@ -315,6 +371,12 @@ function renderChecklist() {
 }
 
 /* ---------- roadmap ---------- */
+
+function stageProgress(stage) {
+  const total = stage.trophyIds.length;
+  const done = stage.trophyIds.filter((id) => state.earned.has(byId.get(id)?.name)).length;
+  return { done, total };
+}
 
 function renderRoadmap() {
   const rm = doc.roadmap;
@@ -328,6 +390,8 @@ function renderRoadmap() {
   coverage.className = 'coverage-note';
   coverage.textContent = `Roadmap coverage: ${new Set(stageIds).size} of ${trophies.length} trophies across ${rm.stages.length} stages, each trophy exactly once — 55/55 covered.`;
   els.roadmapIntro.append(h2, intro, coverage);
+
+  renderPlatinumPlan();
 
   els.missablePanel.replaceChildren();
   const mh2 = document.createElement('h2');
@@ -387,13 +451,34 @@ function renderRoadmap() {
     const h3 = document.createElement('h3');
     h3.textContent = stage.name;
     headRow.append(num, h3);
+    const { done, total } = stageProgress(stage);
+    const progress = document.createElement('div');
+    progress.className = 'stage-progress';
+    const bar = document.createElement('div');
+    bar.className = 'bar';
+    bar.setAttribute('role', 'progressbar');
+    bar.setAttribute('aria-label', `Stage ${stage.stage} progress`);
+    const fill = document.createElement('span');
+    fill.style.width = `${total ? Math.round((done / total) * 100) : 0}%`;
+    bar.append(fill);
+    const count = document.createElement('span');
+    count.className = 'stage-count';
+    count.textContent = `${done} of ${total} earned in this stage`;
+    progress.append(bar, count);
     const why = document.createElement('p');
     why.textContent = stage.rationale;
-    let warn = null;
+    sec.append(headRow, progress, why);
     if (stage.warning) {
-      warn = document.createElement('p');
+      const warn = document.createElement('p');
       warn.className = 'stage-warning';
       warn.textContent = stage.warning;
+      sec.append(warn);
+    }
+    if (stage.effort) {
+      const effort = document.createElement('p');
+      effort.className = 'effort-note';
+      effort.textContent = stage.effort;
+      sec.append(effort);
     }
     const chips = document.createElement('div');
     chips.className = 'stage-trophies';
@@ -409,10 +494,101 @@ function renderRoadmap() {
       chip.addEventListener('click', () => { location.hash = `trophy-${t.id}`; });
       chips.append(chip);
     }
-    if (warn) sec.append(headRow, why, warn, chips);
-    else sec.append(headRow, why, chips);
+    sec.append(chips);
     els.roadmapStages.append(sec);
   }
+}
+
+function renderPlatinumPlan() {
+  const plan = doc.platinumPlan;
+  els.platinumPlan.replaceChildren();
+  if (!plan) return;
+  const h2 = document.createElement('h2');
+  h2.textContent = plan.title;
+  const composition = document.createElement('p');
+  composition.textContent = plan.composition;
+  els.platinumPlan.append(h2, composition);
+  const phasesH = document.createElement('h3');
+  phasesH.textContent = 'The run, in order';
+  const ol = document.createElement('ol');
+  ol.className = 'plan-phases';
+  for (const phase of plan.phases ?? []) {
+    const li = document.createElement('li');
+    const b = document.createElement('b');
+    b.textContent = `${phase.name} — `;
+    li.append(b, phase.detail);
+    ol.append(li);
+  }
+  const polesH = document.createElement('h3');
+  polesH.textContent = 'The long poles';
+  const poles = document.createElement('ul');
+  poles.className = 'plan-poles';
+  for (const pole of plan.longPoles ?? []) {
+    const li = document.createElement('li');
+    li.textContent = pole;
+    poles.append(li);
+  }
+  els.platinumPlan.append(phasesH, ol, polesH, poles);
+}
+
+/* ---------- planner (next up) ---------- */
+
+function renderPlanner() {
+  const unearned = roadmapOrder.map((id) => byId.get(id)).filter((t) => t && !state.earned.has(t.name));
+  els.plannerPanel.replaceChildren();
+  const h2 = document.createElement('h2');
+  h2.textContent = 'Next up — your run from here';
+  els.plannerPanel.append(h2);
+  if (!unearned.length) {
+    const done = document.createElement('p');
+    done.textContent = 'All 55 trophies are earned — the platinum is yours. Nothing remains in any stage.';
+    els.plannerPanel.append(done);
+    els.plannerList.replaceChildren();
+    return;
+  }
+  const currentStage = stageOf.get(unearned[0].id);
+  const { done, total } = stageProgress(currentStage);
+  const now = document.createElement('p');
+  now.className = 'now-line';
+  now.textContent = `You are in Stage ${currentStage.stage} — ${currentStage.name}`;
+  const remains = document.createElement('p');
+  remains.textContent = `${done} of ${total} earned in this stage, ${total - done} still to go here. Across the whole roadmap, ${unearned.length} of ${trophies.length} trophies remain, listed below in roadmap order — work from the top.`;
+  const tip = document.createElement('p');
+  tip.textContent = 'The list follows the roadmap stages in order, so the next trophy to earn is always the first one. Counters show where each grind stands; open a trophy to read its guide, unlock timing and pitfalls.';
+  els.plannerPanel.append(now, remains, tip);
+
+  els.plannerList.replaceChildren();
+  unearned.forEach((t, i) => {
+    const stage = stageOf.get(t.id);
+    const item = document.createElement('article');
+    item.className = `next-item grade-${t.grade}` + (stage === currentStage ? ' current-stage' : '');
+    const rank = document.createElement('span');
+    rank.className = 'rank';
+    rank.textContent = String(i + 1);
+    const main = document.createElement('div');
+    const tag = document.createElement('span');
+    tag.className = 'stage-tag';
+    tag.textContent = `Stage ${stage.stage} · ${stage.name}`;
+    const h3 = document.createElement('h3');
+    h3.textContent = isSpoilerHidden(t) ? 'Hidden trophy' : t.name;
+    const meta = document.createElement('p');
+    if (isSpoilerHidden(t)) {
+      meta.textContent = 'Story trophy hidden by the spoiler shield until earned.';
+    } else {
+      meta.textContent = t.unlock || t.description;
+      const ct = counterText(t);
+      if (ct) meta.append(` ${ct}.`);
+      if (t.missable) meta.append(' Potential missable — mind the Chapter 1 window.');
+    }
+    main.append(tag, h3, meta);
+    const jump = document.createElement('button');
+    jump.type = 'button';
+    jump.className = 'guide-toggle jump';
+    jump.textContent = 'Open guide ▸';
+    jump.addEventListener('click', () => { location.hash = `trophy-${t.id}`; });
+    item.append(rank, main, jump);
+    els.plannerList.append(item);
+  });
 }
 
 /* ---------- sources & methodology ---------- */
@@ -447,13 +623,15 @@ function renderMethodology() {
 /* ---------- views & hash routing ---------- */
 
 function showView(view) {
-  const roadmap = view === 'roadmap';
-  els.roadmapView.hidden = !roadmap;
-  els.checklistView.hidden = roadmap;
-  els.controls.hidden = roadmap;
-  els.tabRoadmap.classList.toggle('active', roadmap);
-  els.tabChecklist.classList.toggle('active', !roadmap);
-  if (roadmap) renderRoadmap();
+  els.roadmapView.hidden = view !== 'roadmap';
+  els.plannerView.hidden = view !== 'planner';
+  els.checklistView.hidden = view !== 'checklist';
+  els.controls.hidden = view !== 'checklist';
+  els.tabRoadmap.classList.toggle('active', view === 'roadmap');
+  els.tabPlanner.classList.toggle('active', view === 'planner');
+  els.tabChecklist.classList.toggle('active', view === 'checklist');
+  if (view === 'roadmap') renderRoadmap();
+  if (view === 'planner') renderPlanner();
 }
 
 function applyHash() {
@@ -461,6 +639,7 @@ function applyHash() {
   let view = 'checklist';
   for (const part of parts) {
     if (part === 'roadmap') view = 'roadmap';
+    if (part === 'planner') view = 'planner';
     if (part === 'filter-missable') { kindFilter = 'missable'; view = 'checklist'; }
     if (part === 'spoiler=1') { state.spoiler = true; els.spoiler.checked = true; saveState(); }
     const m = part.match(/^trophy-(\d+)$/);
@@ -490,6 +669,7 @@ function renderAll() {
   renderProgress();
   renderChecklist();
   if (!els.roadmapView.hidden) renderRoadmap();
+  if (!els.plannerView.hidden) renderPlanner();
 }
 
 els.search.addEventListener('input', renderChecklist);
@@ -502,10 +682,11 @@ els.spoiler.addEventListener('change', () => {
 });
 els.tabChecklist.addEventListener('click', () => { location.hash = 'checklist'; });
 els.tabRoadmap.addEventListener('click', () => { location.hash = 'roadmap'; });
+els.tabPlanner.addEventListener('click', () => { location.hash = 'planner'; });
 window.addEventListener('hashchange', applyHash);
 
 document.getElementById('export').addEventListener('click', () => {
-  const payload = JSON.stringify({ earned: [...state.earned], counts: state.counts }, null, 1);
+  const payload = JSON.stringify({ earned: [...state.earned], counts: state.counts, notes: state.notes }, null, 1);
   const a = document.createElement('a');
   a.href = URL.createObjectURL(new Blob([payload], { type: 'application/json' }));
   a.download = 'leonida-trophy-progress.json';
@@ -523,6 +704,10 @@ document.getElementById('import').addEventListener('change', async (e) => {
     } else if (parsed && typeof parsed === 'object') {
       if (Array.isArray(parsed.earned)) state.earned = new Set(parsed.earned.filter((n) => trophies.some((t) => t.name === n)));
       if (parsed.counts && typeof parsed.counts === 'object') state.counts = parsed.counts;
+      if (parsed.notes && typeof parsed.notes === 'object') {
+        state.notes = {};
+        for (const [k, v] of Object.entries(parsed.notes)) if (typeof v === 'string') state.notes[k] = v;
+      }
     }
     saveState();
     renderAll();
@@ -533,9 +718,10 @@ document.getElementById('import').addEventListener('change', async (e) => {
 });
 
 document.getElementById('reset').addEventListener('click', () => {
-  if (!confirm('Clear every earned tick and counter?')) return;
+  if (!confirm('Clear every earned tick, counter and personal note?')) return;
   state.earned.clear();
   state.counts = {};
+  state.notes = {};
   saveState();
   renderAll();
 });

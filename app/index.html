@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Leonida Trophy Guide — GTA VI Tracker &amp; Platinum Roadmap</title>
-<meta name="description" content="Offline guide and tracker for the 55 PlayStation 5 trophies of Grand Theft Auto VI: checklist, cited guides, missable warnings and a roadmap to the platinum.">
+<meta name="description" content="Offline guide and tracker for the 55 PlayStation 5 trophies of Grand Theft Auto VI: checklist with counters and personal notes, cited guides with unlock timing and pitfalls, a next-up planner, missable warnings and a roadmap to the platinum.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='13' fill='%23ff7a59'/%3E%3C/svg%3E">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -24,6 +24,7 @@
   <nav id="view-tabs" aria-label="Views">
     <button id="tab-checklist" type="button" class="tab active">Checklist</button>
     <button id="tab-roadmap" type="button" class="tab">Roadmap to the Platinum</button>
+    <button id="tab-planner" type="button" class="tab">Next up</button>
   </nav>
 </header>
 
@@ -67,13 +68,19 @@
     <div id="roadmap-intro" class="panel"></div>
     <div id="missable-panel" class="panel warning"></div>
     <div id="roadmap-stages"></div>
+    <div id="platinum-plan" class="panel"></div>
+  </section>
+
+  <section id="planner-view" hidden>
+    <div id="planner-panel" class="panel"></div>
+    <div id="planner-list"></div>
   </section>
 </main>
 
 <section id="methodology" class="panel" aria-label="Sources and methodology"></section>
 
 <footer id="footer">
-  <p>Works fully offline: progress lives in this browser (localStorage) and nothing is fetched at run time.
+  <p>Works fully offline: progress, counters and personal notes live in this browser (localStorage) and nothing is fetched at run time.
   Trophy names, descriptions and grades are the official PlayStation list of 2026-11-18; every guide is written
   for this page and cites its sources beside it. Not affiliated with Rockstar Games or PlayStation.</p>
 </footer>

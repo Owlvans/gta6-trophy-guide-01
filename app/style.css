@@ -137,7 +137,7 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; letter-spacing: .01
   border-radius: 0 12px 12px 12px;
 }
 
-#checklist-view, #roadmap-view { max-width: 1080px; margin: 0 auto; padding: 16px 20px 8px; }
+#checklist-view, #roadmap-view, #planner-view { max-width: 1080px; margin: 0 auto; padding: 16px 20px 8px; }
 
 .control-row {
   display: flex;
@@ -299,6 +299,18 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; letter-spacing: .01
 .guide-panel li { margin-bottom: 4px; font-size: 15px; }
 .guide-panel p { margin: 0 0 12px; font-size: 15.5px; line-height: 1.55; }
 
+.unlock-line, .pitfalls-line {
+  border-left: 4px solid var(--line);
+  border-radius: 0 8px 8px 0;
+  background: #150e28;
+  padding: 8px 12px;
+  font-size: 14.5px !important;
+}
+
+.unlock-line { border-left-color: var(--platinum); }
+.pitfalls-line { border-left-color: var(--gold); }
+.unlock-line b, .pitfalls-line b { color: var(--ink); }
+
 .sources { font-size: 13.5px; color: var(--ink-dim); }
 .sources a { color: var(--accent); }
 .sources ul { margin: 4px 0 0; padding-left: 18px; }
@@ -313,6 +325,18 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; letter-spacing: .01
   font-size: 14.5px;
   line-height: 1.55;
 }
+
+.note-box { margin: 0 0 12px; }
+.note-box label { display: block; font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); margin-bottom: 6px; }
+
+.note-box textarea {
+  font: inherit; font-size: 14.5px; line-height: 1.5;
+  width: 100%; min-height: 52px; resize: vertical;
+  color: var(--ink); background: #150e28;
+  border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px;
+}
+
+.note-box .hint { margin: 4px 0 0; }
 
 /* ---------- roadmap ---------- */
 
@@ -365,6 +389,17 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; letter-spacing: .01
 .stage h3 { margin: 0; font-size: 20px; }
 .stage p { color: var(--ink-dim); line-height: 1.55; font-size: 15px; }
 
+.stage-progress { display: flex; gap: 10px; align-items: center; margin-top: 10px; }
+
+.stage-progress .bar {
+  flex: 1; height: 9px; border-radius: 5px;
+  background: #120b20; overflow: hidden;
+}
+
+.stage-progress .bar span { display: block; height: 100%; background: var(--accent); border-radius: 5px; }
+.stage-progress .stage-count { font-size: 13.5px; font-weight: 700; color: var(--ink); white-space: nowrap; }
+.stage .effort-note { color: var(--ink); font-size: 14px; margin-bottom: 0; }
+
 .stage-trophies { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 10px; }
 
 .trophy-chip {
@@ -381,6 +416,46 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; letter-spacing: .01
 .trophy-chip .dot.silver { background: var(--silver); }
 .trophy-chip .dot.bronze { background: var(--bronze); }
 .trophy-chip.is-earned { border-color: var(--accent); color: var(--accent); }
+
+/* ---------- platinum plan ---------- */
+
+.plan-phases { margin: 10px 0 4px; padding-left: 22px; }
+.plan-phases li { margin-bottom: 10px; font-size: 15.5px; line-height: 1.55; }
+.plan-phases b { color: var(--accent); }
+.plan-poles { margin: 6px 0 0; padding-left: 20px; line-height: 1.6; font-size: 15px; }
+#platinum-plan h3 { margin: 16px 0 6px; font-size: 18px; }
+
+/* ---------- planner (next up) ---------- */
+
+#planner-panel h2 { margin: 0 0 8px; font-size: 24px; }
+#planner-panel .now-line { font-size: 17px; font-weight: 700; color: var(--accent); margin: 0 0 6px; }
+
+.next-item {
+  display: flex; gap: 12px; align-items: flex-start;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-left: 5px solid var(--line);
+  border-radius: 12px;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+}
+
+.next-item.grade-platinum { border-left-color: var(--platinum); }
+.next-item.grade-gold { border-left-color: var(--gold); }
+.next-item.grade-silver { border-left-color: var(--silver); }
+.next-item.grade-bronze { border-left-color: var(--bronze); }
+.next-item.current-stage { outline: 2px solid var(--accent); }
+
+.next-item .rank {
+  flex: none; width: 28px; height: 28px; border-radius: 50%;
+  background: var(--panel-raise); border: 1px solid var(--line);
+  font-weight: 800; font-size: 13.5px; text-align: center; line-height: 28px;
+}
+
+.next-item h3 { margin: 0 0 3px; font-size: 18px; }
+.next-item p { margin: 0; color: var(--ink-dim); font-size: 14.5px; line-height: 1.5; }
+.next-item .stage-tag { font-size: 12.5px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--accent); }
+.next-item .jump { margin-left: auto; flex: none; }
 
 /* ---------- methodology ---------- */
 
