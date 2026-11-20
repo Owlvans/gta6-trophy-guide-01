@@ -10,7 +10,9 @@
    "grade": "platinum",
    "kind": "platinum",
    "missable": false,
-   "guide": "The platinum is the list's finishing line: it pops on its own the moment the other 54 trophies are all earned, with nothing extra to do. Everything on the list is single-player — no online, DLC or difficulty trophies — and the published guides put the full run at roughly 200 hours, most of it inside the 100% checklist behind A Long Road. Plan one long playthrough, keep rotating manual saves, and treat this trophy as a progress report rather than a task. Tip: if it does not pop when you expect, compare your earned list against the checklist here; the missing item is almost always a cleanup trophy from the middle stages of the roadmap.",
+   "guide": "The platinum is the list's finishing line: it pops on its own the moment the other 54 trophies are all earned, with nothing extra to do. Everything on the list is single-player — no online, DLC or difficulty trophies — and PowerPyx's and KeenGamer's roadmaps put the full run at roughly 200 hours, most of it inside the 100% checklist behind A Long Road. Plan one long playthrough, keep rotating manual saves, and treat this trophy as a progress report rather than a task. Tip: if it does not pop when you expect, compare your earned list against the checklist here; the missing item is almost always a cleanup trophy from the middle stages of the roadmap.",
+   "unlock": "Last of all: it pops automatically the moment the other 54 trophies are earned — there is no separate task, mission or moment attached to it.",
+   "pitfalls": "Chasing it directly wastes time. If it does not pop when expected, one cleanup trophy is still missing — audit your earned list against this checklist instead of replaying missions; there is no mission replay.",
    "steps": [
     "Earn the other 54 trophies on the list",
     "Let the platinum pop automatically",
@@ -35,6 +37,8 @@
    "kind": "story",
    "missable": false,
    "guide": "This pops automatically at the end of Gone Fishing, the opening mission of Chapter 1, so it cannot be missed. Treat the mission as the game's tutorial stretch: movement, driving and the basics of the first protagonist's life. There is no performance requirement — no medal, timer or optional objective is attached. Tip: start your save discipline here and keep a manual save at the start of Chapter 1, because the game has no mission replay.",
+   "unlock": "Chapter 1, at the end of Gone Fishing, the opening mission of the story.",
+   "pitfalls": "Nothing about the trophy itself can go wrong. The time-waster is rushing on without starting manual-save discipline — keep a Chapter 1 save, because the balcony meditation window later in the chapter cannot be revisited.",
    "steps": [
     "Start the story and play Chapter 1",
     "Finish the opening mission, Gone Fishing",
@@ -54,7 +58,9 @@
    "grade": "bronze",
    "kind": "story",
    "missable": false,
-   "guide": "Awarded for completing Chapter 1; the published guides note it registers as you move into Chapter 2's opening mission. It is a pure progression trophy with no optional conditions, so a normal story run earns it. Optional missions you finish during the chapter still count toward the 100% checklist even before that checklist becomes visible. Tip: before closing the chapter, do Lucia's balcony meditation at Jason's house (see Positive Mental Attitude) — it is the one interaction the guides flag as potentially missable.",
+   "guide": "Awarded for completing Chapter 1; it registers as you move into Chapter 2's opening mission. It is a pure progression trophy with no optional conditions, so a normal story run earns it. Optional missions you finish during the chapter still count toward the 100% checklist even before that checklist becomes visible. Tip: before closing the chapter, do Lucia's balcony meditation at Jason's house (see Positive Mental Attitude) — it is the one interaction the guides flag as potentially missable.",
+   "unlock": "At the end of Chapter 1; the guides note it registers as you move into Chapter 2's opening mission.",
+   "pitfalls": "Finishing Chapter 1 before doing Lucia's balcony meditation at Jason's house is the one costly mistake in this stretch — that interaction closes when the chapter ends (see Positive Mental Attitude).",
    "steps": [
     "Play through Chapter 1's main missions",
     "Do the Chapter 1 balcony meditation before finishing",
@@ -75,6 +81,8 @@
    "kind": "story",
    "missable": false,
    "guide": "Completing Chapter 2 earns this; the guides note it registers during Chapter 3's opening stretch. Chapter 2 is also where both protagonists become playable together, which unlocks the partner trophies and, later, the final meditation spot. Nothing in the chapter is missable for trophy purposes. Tip: from here on, scan every new vehicle with the WAiNK app as you encounter it, so Whip It Good builds up naturally instead of becoming a late-game hunt.",
+   "unlock": "At the end of Chapter 2; the guides note it registers during Chapter 3's opening stretch. Chapter 2 is also when both protagonists become playable together.",
+   "pitfalls": "Nothing in the chapter is missable. The waste is reaching later chapters without the WAiNK scanning habit started — vehicle discoveries are slow and painful to backfill at the end of the run.",
    "steps": [
     "Complete Chapter 2's main missions",
     "Start Chapter 3 to trigger the unlock",
@@ -95,6 +103,8 @@
    "kind": "story",
    "missable": false,
    "guide": "Finish Chapter 3. The Cartel Heist sits inside this chapter and carries its own trophy (Break the Bank), so the chapter pays out twice. Progression is all that is required — no optional objectives or medals gate it. Keep doing optional missions as they appear: you need 100 of them across the game for the 100% checklist, and there are far more available than that. Tip: keep a manual save at the chapter's start and end and rotate the spare slots.",
+   "unlock": "At the end of Chapter 3, the chapter that also contains The Cartel Heist (Break the Bank).",
+   "pitfalls": "Skipping optional missions as they appear wastes progress that is expensive to reconstruct later — the 100% checklist needs 100 of them, and completions during the story already count.",
    "steps": [
     "Complete Chapter 3's main missions, including The Cartel Heist",
     "Move into Chapter 4 to bank the trophy",
@@ -115,6 +125,8 @@
    "kind": "story",
    "missable": false,
    "guide": "Complete Chapter 4, the busiest chapter for named-mission trophies: Child's Play, Headliners and VCIA Takedown all live here. An optional Chapter 4 mission also opens up the bank vaults used by Maximum Withdrawal, so unlock them now rather than during cleanup. Everything in the chapter remains reachable afterwards in free roam. Tip: with the finale approaching, park one manual save at the chapter's end and do not overwrite it.",
+   "unlock": "At the end of Chapter 4 — the chapter that also holds Child's Play, Headliners and VCIA Takedown.",
+   "pitfalls": "Leaving the chapter without taking the optional mission that opens the bank vaults forces a later detour: Maximum Withdrawal depends on those vaults being open.",
    "steps": [
     "Complete Chapter 4's main missions",
     "Take the optional mission that opens the bank vaults",
@@ -135,6 +147,8 @@
    "kind": "story",
    "missable": false,
    "guide": "The gold for finishing the final story mission. Once it is done the game returns you to free roam, so nothing after this point is locked away — the entire cleanup happens post-credits. There is no difficulty setting to worry about and no medal requirement on the mission itself. Tip: save before the finale in its own slot; with no mission replay, that save is your only way back to the ending stretch.",
+   "unlock": "After the final story mission in Chapter 5; free roam continues afterwards, so the whole cleanup happens post-credits.",
+   "pitfalls": "Overwriting your pre-finale save removes your only way back to the ending stretch — there is no mission replay. Keep the finale save in its own slot.",
    "steps": [
     "Reach the final story mission",
     "Complete it to roll the credits",
@@ -155,6 +169,8 @@
    "kind": "story",
    "missable": false,
    "guide": "Complete the story mission Breakfast Run, which the guides place in Chapter 2. It is a mandatory mission on the story path, so the trophy is automatic and cannot be missed. No optional objectives or performance targets apply. Tip: story missions also move several background counters (discoveries, optional content), so there is no reason to rush past the areas it takes you through.",
+   "unlock": "Chapter 2, on completing the mandatory story mission Breakfast Run.",
+   "pitfalls": "None for the trophy — it is compulsory story progress. Rushing past the areas the mission visits only slows the background discovery counters that feed later trophies.",
    "steps": [
     "Reach the Breakfast Run mission in Chapter 2",
     "Complete the mission"
@@ -174,6 +190,8 @@
    "kind": "story",
    "missable": false,
    "guide": "The Cartel Heist is a set-piece story mission in Chapter 3; finishing it earns the trophy with no side conditions. It doubles as training for the free-roam robbery trophies: vault work, escapes and wanted-level management all return in Maximum Withdrawal and A Classic Blitz Play. Tip: pay attention to how the heist handles its escape phase — losing the heat quickly and switching vehicles is the same skill the silver robbery trophy grades you on.",
+   "unlock": "Chapter 3, on completing The Cartel Heist and its escape.",
+   "pitfalls": "Treating the heist as a one-off wastes its training value: its escape phase teaches the vehicle-switching and heat management that the free-roam robbery trophies grade you on later.",
    "steps": [
     "Reach The Cartel Heist in Chapter 3",
     "Complete the heist and its escape"
@@ -193,6 +211,8 @@
    "kind": "story",
    "missable": false,
    "guide": "Complete Child's Play, a main mission the guides place in Chapter 4. Like the other named-mission trophies it is awarded for completion alone — no score, time or optional objective is attached. It sits in the chapter alongside Headliners and VCIA Takedown, so Chapter 4 banks several bronzes in a row. Tip: none; play it as it comes and keep your chapter-boundary saves current.",
+   "unlock": "Chapter 4, on completing the main mission Child's Play.",
+   "pitfalls": "None — completion alone earns it, with no medal, timer or optional objective attached. Just keep your chapter-boundary saves current while chaining Chapter 4's missions.",
    "steps": [
     "Reach Child's Play in Chapter 4",
     "Complete the mission"
@@ -212,6 +232,8 @@
    "kind": "story",
    "missable": false,
    "guide": "Complete Headliners, another of Chapter 4's named main missions. Completion is the whole requirement; the trophy cannot be missed because the mission is compulsory story progress. Tip: if you are chaining Chapter 4's missions, this is a good moment to also unlock the bank vaults via the chapter's optional mission, while you are already in the area.",
+   "unlock": "Chapter 4, on completing the main mission Headliners.",
+   "pitfalls": "None for the trophy itself. While chaining Chapter 4, skipping the chapter's optional bank-vault mission is the detour to avoid — the vaults are needed in stage 5 of the roadmap.",
    "steps": [
     "Reach Headliners in Chapter 4",
     "Complete the mission"
@@ -231,6 +253,8 @@
    "kind": "story",
    "missable": false,
    "guide": "Complete VCIA Takedown, a Chapter 4 main mission set around VCIA, Vice City's international airport. The trophy is for completion only and is unmissable. Remember the location: the airport is also where the free-roam trophy Catch Me If You Can is earned later. Tip: while the mission has you at the airport, note the layout of the field and hangars for that return visit.",
+   "unlock": "Chapter 4, on completing VCIA Takedown at the airport.",
+   "pitfalls": "None for the trophy. Forgetting the airport's layout while the mission shows it to you costs time later, when Catch Me If You Can sends you back to VCIA in free roam.",
    "steps": [
     "Reach VCIA Takedown in Chapter 4",
     "Complete the mission"
@@ -250,6 +274,8 @@
    "kind": "story",
    "missable": false,
    "guide": "Complete Operation Savage Glory, which the guides place in Chapter 5, the final chapter. It is the last of the named-mission bronzes and, like the rest, is awarded for completion alone on the compulsory story path. After it, only the finale stands between you and the gold for the final mission. Tip: keep a fresh manual save before pushing into the endgame sequence.",
+   "unlock": "Chapter 5, on completing Operation Savage Glory — the last named-mission bronze before the finale.",
+   "pitfalls": "Pushing into the endgame sequence without a fresh manual save is the only real risk here; keep one before the final stretch.",
    "steps": [
     "Reach Operation Savage Glory in Chapter 5",
     "Complete the mission"
@@ -268,7 +294,10 @@
    "grade": "gold",
    "kind": "freeroam",
    "missable": false,
-   "guide": "The long gold. After the story, a 100% Completion checklist appears under Progress > Stats, and filling it earns this trophy — but '100%' is generous: the guides put it near 60% true completion, with most side quests and many collectible types not required at all. The demanding parts are the categories required in full — robberies, underwater discoveries, shooting ranges, drone races and Bret's quests — plus 70 of the 80 challenges and any 100 optional missions. Progress made during the story already counts, and nothing on the checklist is missable. Tip: work the checklist screen itself as your to-do list after the credits, and leave the hardest challenges for last, since you are allowed to skip ten.",
+   "count": 100,
+   "guide": "The long gold. After the story, a 100% Completion checklist appears under Progress > Stats, and filling it earns this trophy — but '100%' is generous: Push Square's 100% checklist breakdown puts it near 60% true completion, with most side quests and many collectible types not required at all. The demanding parts are the categories required in full — robberies, underwater discoveries, shooting ranges, drone races and Bret's quests — plus 70 of the 80 challenges and any 100 optional missions (Push Square's checklist figures). Progress made during the story already counts, and the cited guides list nothing on the checklist as missable. Tip: work the checklist screen itself as your to-do list after the credits, and leave the hardest challenges for last, since you are allowed to skip ten.",
+   "unlock": "Effectively post-story: the 100% Completion checklist appears under Progress > Stats once the story is done, although progress made during the story already counts toward it. Track it on this card: the checklist percentage, of 100.",
+   "pitfalls": "Grinding categories the checklist only partially requires wastes hours — Push Square's checklist breakdown puts '100%' at roughly 60% true completion. Clear the fully-required categories first, use the checklist screen itself as the to-do list, and leave the hardest challenges for last: ten may be skipped.",
    "steps": [
     "Finish the story to reveal the checklist",
     "Open Progress > Stats > 100% Completion",
@@ -296,6 +325,8 @@
    "missable": false,
    "count": 250,
    "guide": "Complete any 250 of the game's 397 stunt events. They fall into four families — 130 stunt jumps, 202 flights under bridges, 40 knife flights between buildings and 25 base jumps — and any mix counts toward the 250. The under-bridge flights are widely reported as the quickest to bank. Progress is tracked per region under Progress > Activities > Stunts, and completed stunts stay marked on the map's Exploration filter. Tip: the 100% checklist wants 300 stunts, so keep going past 250 while you are in a stunt mood.",
+   "unlock": "Any time in free roam once stunt events are available; the counter runs to 250 of the game's 397 stunts, in any mix of the four families.",
+   "pitfalls": "Stopping at 250 wastes momentum — the 100% checklist wants 300, so bank the extra 50 while routes are fresh. Repeating an already-completed stunt adds nothing to the counter.",
    "steps": [
     "Open the map's Exploration filter to list stunt spots",
     "Start with under-bridge flights for quick completions",
@@ -316,7 +347,10 @@
    "grade": "bronze",
    "kind": "activities",
    "missable": false,
+   "count": 9,
    "guide": "Sample every kind of activity once. The trophy tracker counts nine activity types, and you can watch them under Touch Pad > Progress > Activities, where each type shows how many times you have done it. The story introduces most types on its own; the rest appear as blue icons once the map is unfogged. In practice this pops by itself during a full playthrough. Tip: late in the run, open the Activities page and look for any type still showing zero — that is your only homework.",
+   "unlock": "Whenever the last of the nine activity types is tried for the first time; the story introduces most types, and the rest appear as blue icons once the map is unfogged. This card's tracker counts types tried, of 9.",
+   "pitfalls": "Assuming it will pop on its own is the trap. Late in the run, open Progress > Activities and hunt any type still showing zero — that single missing type is the whole remaining task.",
    "steps": [
     "Open Progress > Activities to see the nine types",
     "Try each type at least once",
@@ -337,7 +371,9 @@
    "kind": "activities",
    "missable": false,
    "count": 42,
-   "guide": "Gold-medal every Shooting Range challenge: 42 golds spread across 12 ranges, as the published lists and this bounty's own rules text both state. A gold is a score target rather than a win against an opponent, so learn each challenge's target pattern and retry until the medal lands; ranges stay available for the whole game. All 42 are also required in full by the 100% checklist, which makes this one of the list's true long poles. Tip: settle on one comfortable weapon per range and run its challenges back-to-back while the layouts are fresh in your mind.",
+   "guide": "Gold-medal every Shooting Range challenge: 42 golds spread across 12 ranges, as the published lists and this bounty's own rules text both state. A gold is a score target rather than a win against an opponent, so learn each challenge's target pattern and retry until the medal lands; ranges stay available for the whole game. All 42 are also required in full by the 100% checklist (Push Square's 100% checklist breakdown), which makes this one of the list's true long poles. Tip: settle on one comfortable weapon per range and run its challenges back-to-back while the layouts are fresh in your mind.",
+   "unlock": "Across the whole game: gold-medal all 42 Shooting Range challenges, spread over the 12 ranges; ranges stay available from when you first reach them through the cleanup.",
+   "pitfalls": "Switching weapons every attempt resets your learning curve — settle on one comfortable weapon per range and run its challenges back-to-back while layouts are fresh. Anything below gold does not count, and all 42 are also required in full by the 100% checklist (Push Square's breakdown).",
    "steps": [
     "Visit each of the 12 shooting ranges",
     "Learn each challenge's scoring targets",
@@ -357,7 +393,10 @@
    "grade": "bronze",
    "kind": "activities",
    "missable": false,
-   "guide": "Win a Top Fun drone race at each of the 14 locations. Only one win per location is needed for the trophy, even though the locations host 42 races in total and the 100% checklist wants all of them — so fly the shortest event at each spot and move on. Drone races are handling tests: a clean line through the gates beats raw speed. Tip: if a location's win is elusive, learn the gate order at cruising pace first, then push for pace on the next run.",
+   "count": 14,
+   "guide": "Win a Top Fun drone race at each of the 14 locations. Only one win per location is needed for the trophy, even though each location hosts more races and the 100% checklist wants the remaining races at each location — so fly the shortest event at each spot and move on. Drone races are handling tests: a clean line through the gates beats raw speed. Tip: if a location's win is elusive, learn the gate order at cruising pace first, then push for pace on the next run.",
+   "unlock": "In free roam: win one Top Fun drone race at each of the 14 locations. This card's tracker counts locations won, of 14.",
+   "pitfalls": "Winning extra races at a location you have already won adds nothing to this trophy — one win per location. Save the remaining races at each location for the 100% checklist.",
    "steps": [
     "Find a Top Fun drone race location",
     "Win one race there",
@@ -379,6 +418,8 @@
    "missable": false,
    "count": 20,
    "guide": "Win 20 different races — winning the same race twice does not count. There are about 40 races in the game, so you can take the half that suits you and skip the rest. Wins count across race types, so mix road, off-road and water events as they appear on the map. Tip: keep track of which races you have already won; the map marks discovered races, and variety matters more than volume here.",
+   "unlock": "Across the run: win 20 different races, from the roughly 40 races in the game, in any mix of road, off-road and water events.",
+   "pitfalls": "Re-winning a favourite race does not advance the counter — only distinct wins count. Track which races are already won; variety matters more than volume.",
    "steps": [
     "Enter races as they appear on the map",
     "Win each race once",
@@ -399,6 +440,8 @@
    "kind": "activities",
    "missable": false,
    "guide": "Beat Cal in a fishing challenge. Fishing is one of the nine activity types, and Cal is its named rival: find his challenge, accept it, and land the better result. Fishing spots and the challenge live in free roam, so there is no story deadline on this one. Tip: learn the basic fishing loop on ordinary spots first (which also feeds Master of None), so Cal's challenge is the only new thing you are dealing with.",
+   "unlock": "In free roam, once fishing is available as an activity: find Cal's fishing challenge and beat his result. There is no story deadline on it.",
+   "pitfalls": "Taking on Cal before learning the basic fishing loop wastes attempts — practise on ordinary spots first, which also feeds Master of None, so the challenge itself is the only new thing you are dealing with.",
    "steps": [
     "Unlock fishing as an activity",
     "Find Cal's fishing challenge",
@@ -419,6 +462,8 @@
    "kind": "activities",
    "missable": false,
    "guide": "Complete one arcade game. Arcade cabinets sit inside businesses around Leonida: walk up, play, and finish a full game rather than quitting mid-run. Any single completed game satisfies the trophy. Tip: pair this with your spending for Treat Yo Self — the arcade visit is part of the same shop circuit, and a finished game also samples the activity type if you have not tried it yet.",
+   "unlock": "Any time: complete one full arcade game at a cabinet inside a business. Any single completed game satisfies it.",
+   "pitfalls": "Quitting mid-game does not count — the game must be played through to completion. Pair the visit with shop spending for Treat Yo Self so the trip pays twice.",
    "steps": [
     "Find an arcade cabinet in a shop or venue",
     "Start a game",
@@ -439,6 +484,8 @@
    "kind": "side",
    "missable": false,
    "guide": "Finish the last mission of Andy's strand. Andy's quest line is played as Lucia, and the strand runs across several meetings before its finale; trophy-related quest givers return after the story, so a delayed strand can still be finished in free roam. Work the strand whenever its icon is up so the finale arrives naturally. Tip: because the strand belongs to one protagonist, switch to Lucia if Andy's missions are not appearing while you play as Jason.",
+   "unlock": "At the end of Andy's strand, played as Lucia, across several meetings; a delayed strand can still be finished in free roam after the story.",
+   "pitfalls": "Looking for Andy's missions while playing as Jason wastes time — the strand only surfaces for Lucia. Nothing here can be locked out: trophy quest givers return after the story.",
    "steps": [
     "Meet Andy and start the strand (as Lucia)",
     "Complete each of Andy's missions as they appear",
@@ -459,6 +506,8 @@
    "kind": "side",
    "missable": false,
    "guide": "Complete Kenton's final mission. Kenton can become temporarily unavailable during parts of the story, which worries players mid-strand, but the published guides confirm every trophy quest giver returns — he will be back, including after the credits. Keep progressing his strand whenever he is around. Tip: if Kenton vanishes mid-strand, advance the story or other content and check back later; it is a scheduling quirk, not a lockout.",
+   "unlock": "At the end of Kenton's strand. He can be temporarily unavailable during parts of the story, but the strand can always be finished later, including after the credits.",
+   "pitfalls": "Treating Kenton's mid-story disappearance as a lockout is the mistake — it is a scheduling quirk, not a miss. Advance other content and check back; the guides confirm every trophy quest giver returns.",
    "steps": [
     "Start Kenton's strand",
     "Work his missions as they appear",
@@ -479,6 +528,8 @@
    "kind": "side",
    "missable": false,
    "guide": "Finish Billy's final mission. Billy's strand is one of the character quest lines handled in the cleanup stage; note that guide breakdowns of Strangers & Freaks do not count Billy's strand toward that silver's eight, but his finale carries this bronze of its own. All of it remains available after the story. Tip: do not confuse 'does not count for the silver' with 'not worth doing' — this trophy only cares about the finale.",
+   "unlock": "At the end of Billy's strand, one of the character quest lines handled in the cleanup stage; it remains available after the story.",
+   "pitfalls": "Skipping Billy because his strand does not count toward the Strangers & Freaks eight loses this bronze — 'does not count for the silver' is not 'not worth doing'; the finale carries its own trophy.",
    "steps": [
     "Start Billy's strand",
     "Complete his missions in order",
@@ -504,6 +555,8 @@
    "missable": false,
    "count": 8,
    "guide": "Complete eight stranger mission strands. Not every strand counts: guide breakdowns name Kirk, Kyle, Yago and Pilot Pete among the qualifying strands, while several named-character lines (Moses, Tyrone, Yasmani, Andy and Billy) do not count toward this total. Strands are the multi-mission arcs started from stranger icons across Leonida, and they stay available after the story. Tip: prioritise strands from characters you have never met before — the named finals carry their own trophies anyway, so run those for their bronzes and let this counter be filled by the wider stranger pool.",
+   "unlock": "When the eighth qualifying stranger strand is completed in full; strands are started from stranger icons across Leonida and stay available after the story.",
+   "pitfalls": "Counting the named-character lines toward the eight wastes planning: guide breakdowns exclude several of them (Moses, Tyrone, Yasmani, Andy and Billy) while naming Kirk, Kyle, Yago and Pilot Pete among the qualifying strands. A strand also only counts when finished fully, not at its opening mission.",
    "steps": [
     "Start stranger strands from map icons",
     "Finish strands fully, not just their opening missions",
@@ -528,6 +581,8 @@
    "kind": "side",
    "missable": false,
    "guide": "Complete Randy's final mission. Randy also runs vehicle deliveries, and each of those deliveries counts as an optional mission toward the 100% checklist, so his strand pays double progress while you work it. Keep his missions moving whenever they appear. Tip: batch Randy's deliveries with exploration — deliver the vehicle, then scan the area's cars and study its animals before moving on.",
+   "unlock": "At the end of Randy's strand; his vehicle deliveries along the way each count as an optional mission toward the 100% checklist.",
+   "pitfalls": "Doing the strand as pure point-to-point driving wastes its double progress — batch each delivery with exploration: scan the area's vehicles and study its animals before moving on.",
    "steps": [
     "Start Randy's strand",
     "Complete his missions and vehicle deliveries as they appear",
@@ -548,6 +603,8 @@
    "kind": "side",
    "missable": false,
    "guide": "Finish Tyrone's final mission. Tyrone's line is played as Jason, and like Andy's it does not count toward the Strangers & Freaks eight — it is here for its own bronze. Quest givers tied to trophies remain available after the story, so there is no deadline pressure on the strand. Tip: switch to Jason if Tyrone's icon is not showing; his missions only surface for the right protagonist.",
+   "unlock": "At the end of Tyrone's strand, played as Jason; quest givers tied to trophies remain available after the story, so there is no deadline pressure.",
+   "pitfalls": "Hunting for Tyrone's icon while playing as Lucia wastes time — his missions only surface for Jason. And like Andy's line, this strand does not count toward the Strangers & Freaks eight.",
    "steps": [
     "Start Tyrone's strand (as Jason)",
     "Complete his missions in order",
@@ -569,6 +626,8 @@
    "missable": true,
    "count": 18,
    "guide": "Meditate at all 18 meditation spots, spread across 10 locations; most are ordinary free-roam visits, and doing a spot with both protagonists also feeds the 100% checklist (which itself only asks for 15 of the 18). The catch is the first one: in Chapter 1, after the mission Down to Earth, Lucia announces a morning meditation at Jason's house and heads to the balcony — follow her and accept. That interaction disappears when Chapter 1 ends, and PowerPyx and GTABase both flag this as the list's only potentially missable trophy point; whether the trophy strictly needs it is unconfirmed, but the safe play costs two minutes. Tip: keep a Chapter 1 save untouched until the balcony meditation is done.",
+   "unlock": "Across the game at all 18 meditation spots in 10 locations. One interaction is Chapter 1 only, per PowerPyx and GTABase: after Down to Earth, Lucia's morning balcony meditation at Jason's house, which becomes unavailable when Chapter 1 ends. If that balcony spot counts toward the 18, missing it would force a fresh playthrough; published sources do not resolve whether it counts, so the flag is a safe default. The final spot needs both protagonists playable together.",
+   "pitfalls": "If that balcony spot counts toward the 18, letting Chapter 1 end before the balcony meditation would force a fresh playthrough — there is no mission replay — but published sources do not resolve whether it counts. Do the two-minute safe play anyway, and keep a Chapter 1 save untouched until it is done.",
    "steps": [
     "In Chapter 1, after Down to Earth, talk to Lucia at Jason's house in the morning",
     "Follow her to the balcony and accept the meditation",
@@ -604,6 +663,8 @@
    "kind": "side",
    "missable": false,
    "guide": "Hunt the unique animal Bret sends you after. Bret Vogel's quest line is played as Jason, and Bret's quests are one of the few categories the 100% checklist requires in full, so this line is worth finishing regardless of the bronze. While travelling for it, study animals through the binoculars — the checklist separately wants 100 animals studied out of 255. Tip: when Bret's hunt is active, treat it like a strand finale: prepare first, travel to the hunting ground, and finish the unique animal rather than wandering off mid-quest.",
+   "unlock": "During Bret's quest line, played as Jason, at the unique-animal hunt the line builds toward.",
+   "pitfalls": "Wandering off mid-hunt wastes the trip — prepare first, travel to the hunting ground and finish the unique animal. The effort is never wasted: Bret's quests are required in full by the 100% checklist.",
    "steps": [
     "Meet Bret and take his hunting quests (as Jason)",
     "Progress the line to the unique-animal hunt",
@@ -625,6 +686,8 @@
    "missable": false,
    "count": 3,
    "guide": "Complete three Collectible Card sets. Cards are a collectible family scattered through the world and its interiors, and a set completes when every card in it has been found. Collectible types are only partially required by the 100% checklist, but this trophy wants three full sets, so aim your hunting at finishing sets rather than scattering single pickups across all of them. Tip: when you find a card, check which set it belongs to — completing the sets you are already closest to is far faster than starting every set at once.",
+   "unlock": "When the third complete Collectible Card set is finished — a set completes when every card in it has been found.",
+   "pitfalls": "Scattering single pickups across every set is the slow route. When you find a card, check its set, and finish the sets you are already closest to first.",
    "steps": [
     "Pick up collectible cards as you explore",
     "Track your progress set by set",
@@ -646,6 +709,8 @@
    "missable": false,
    "count": 100,
    "guide": "Use the WAiNK app at 100 locations. WAiNK is the in-game app you also use to scan vehicles (it unlocks during Chapter 1), and its marked interaction points are spread across Leonida. Weave them into normal travel — one use per new neighbourhood adds up quickly over a 200-hour run. Tip: the map's Exploration filter lists discovered spots by name, which makes hunting down the last few far easier than driving around hoping to spot them.",
+   "unlock": "From Chapter 1, when the WAiNK app unlocks; the counter runs to 100 marked locations across Leonida.",
+   "pitfalls": "Saving WAiNK spots for a late-game hunt wastes hours — use the app once per new neighbourhood as you travel. For the last few, the map's Exploration filter lists discovered spots by name.",
    "steps": [
     "Unlock the WAiNK app in Chapter 1",
     "Use it at marked locations as you travel",
@@ -667,6 +732,8 @@
    "missable": false,
    "count": 50,
    "guide": "Complete 50 of the game's 80 challenges. Challenges come in eight categories of ten — combat, vehicle and more — and are available from early on, with progress visible in the Progress menu. The 100% checklist raises the bar to 70, so treat 50 as a waypoint rather than the finish line. Tip: because you may ultimately skip the ten hardest challenges entirely, bank the easy categories first and save your frustration budget.",
+   "unlock": "From early in the game, at 50 of the 80 challenges (eight categories of ten), with progress visible in the Progress menu.",
+   "pitfalls": "Burning out on the hardest challenges is unnecessary — the 100% checklist raises the bar only to 70, so ten challenges can be skipped entirely. Bank the easy categories first and treat 50 as a waypoint, not the finish line.",
    "steps": [
     "Open the challenge list in the Progress menu",
     "Clear the easiest categories first",
@@ -687,6 +754,8 @@
    "kind": "freeroam",
    "missable": false,
    "guide": "With your partner beside you, earn a 4-star wanted level and then lose it completely. 'Partner' means the other protagonist — several trophies only open once Jason and Lucia are both playable, from Chapter 2 onward. Commit enough mayhem to reach four stars, then break line of sight and stay hidden until the stars clear; the guides point to covered spots such as train tunnels as reliable escape cover. Tip: stage it somewhere with a fast car and cover nearby, rather than improvising in the open.",
+   "unlock": "Chapter 2 onward, once both protagonists are playable together: with your partner beside you, reach a 4-star wanted level and lose it completely.",
+   "pitfalls": "Trying it solo, or letting the wanted level fall away before it reaches four stars, voids the attempt. Stage it near reliable cover — the guides point to train tunnels — with a fast car ready, rather than improvising in the open.",
    "steps": [
     "Play with both protagonists together (Chapter 2 onward)",
     "Raise the wanted level to 4 stars",
@@ -708,6 +777,8 @@
    "missable": false,
    "count": 3,
    "guide": "Rob three shops back-to-back with your partner, without your wanted level dropping in between. The chain is the hard part: finish one robbery, keep the heat alive, and start the next before the stars fade. Plan a small circuit of nearby shops in one district so travel time does not bleed the wanted level away. Tip: keep your partner with you for all three and use one fast car for the whole run.",
+   "unlock": "Chapter 2 onward, with your partner: rob 3 shops back-to-back without the wanted level dropping in between. Track the current chain on this card: shops robbed back-to-back, of 3 — a current chain that resets if the wanted level drops, not a cumulative total.",
+   "pitfalls": "Picking shops far apart bleeds the wanted level away during travel and breaks the chain — plan a tight circuit of nearby shops in one district, keep your partner with you for all three, and use one fast car for the whole run. The 3 is a current chain that resets if the wanted level drops — not a cumulative total.",
    "steps": [
     "Group with your partner and pick 3 nearby shops",
     "Rob the first shop and keep the wanted level up",
@@ -729,6 +800,8 @@
    "missable": false,
    "count": 100,
    "guide": "Discover 100 vehicles. Scanning a vehicle with the WAiNK app (available from Chapter 1) registers it, and boats and aircraft count as well as cars. The 100% checklist wants 200 of the 277 base models scanned, so this trophy is the halfway mark of a habit worth starting on day one. Tip: scan everything parked or passing whenever you enter a new area — variety is everywhere early and genuinely painful to hunt down late.",
+   "unlock": "From Chapter 1, when vehicle scanning with the WAiNK app unlocks; the counter runs to 100 discovered vehicles — boats and aircraft count as well as cars.",
+   "pitfalls": "Starting the habit late turns variety into a hunt: scan everything parked or passing whenever you enter a new area. This trophy is only the halfway mark — the 100% checklist wants 200 of the 277 base models.",
    "steps": [
     "Unlock vehicle scanning in Chapter 1",
     "Scan every new vehicle, boat and aircraft you meet",
@@ -749,6 +822,8 @@
    "kind": "freeroam",
    "missable": false,
    "guide": "Take down five enemies during a single activation of Combat Focus, the slow-motion combat ability. You need a crowded fight: a gang operation or a robbery gone loud gives you the target density. Line up your targets before triggering Focus so all five takedowns fit inside one window. Tip: build your Focus stat through normal play beforehand so the window lasts as long as possible.",
+   "unlock": "In any sufficiently crowded fight — a gang operation or a robbery gone loud: five takedowns inside a single Combat Focus activation.",
+   "pitfalls": "Triggering Focus in a thin fight wastes the window. Line up at least five targets before activating, and build your Focus stat through normal play beforehand so the window lasts as long as possible.",
    "steps": [
     "Find a fight with at least five enemies",
     "Position and aim before activating Combat Focus",
@@ -769,6 +844,8 @@
    "kind": "freeroam",
    "missable": false,
    "guide": "Make an 'unscheduled departure' at VCIA — Vice City International Airport, the same airport targeted by the story's VCIA Takedown. In plain terms: get airborne from the airport in a way no flight plan approved, by taking an aircraft in free roam and taking off. The published guides illustrate this with a short sequence at the airport rather than any mission. Tip: visit in free roam with no wanted level, so security does not interrupt your takeoff roll.",
+   "unlock": "In free roam at VCIA, Vice City International Airport: take an aircraft on the field and get airborne — an unscheduled departure, outside any mission.",
+   "pitfalls": "Arriving with a wanted level invites security to interrupt your takeoff roll. Visit clean — no heat, no mission active — and use the layout you learned during VCIA Takedown.",
    "steps": [
     "Go to VCIA airport in free roam",
     "Get into an aircraft on the field",
@@ -788,7 +865,9 @@
    "grade": "bronze",
    "kind": "freeroam",
    "missable": false,
-   "guide": "The description is a pun, not a manual: 'these Rhinos' are the military's Rhino tanks. Guide coverage treats this as the tank-encounter trophy — expect to steal, ride in or escape a Rhino in free roam, most reliably once heavy military heat brings armour out, and the guides carry a 'how to get the military tank' page for exactly this corner of the list. The precise trigger was still being pinned down in the cited guides, so experiment around tanks: enter one, and if that does not pop it, escape one at a high wanted level. Tip: draw the military out near a base at maximum heat, with a fast exit vehicle ready. Sources checked — PowerPyx, GTABase, KeenGamer and GTA-Zone: none of them documents a confirmed, tested trigger for this trophy, so follow the official description.",
+   "guide": "The description is a pun, not a manual: 'these Rhinos' are the military's Rhino tanks. Guide coverage treats this as the tank-encounter trophy, but the precise trigger was still being pinned down in the cited guides, so any specific method is an unverified guess. Checked against the published guides in Sources & methodology — none documents a confirmed, tested trigger for this trophy, so follow the official description.",
+   "unlock": "Trigger unconfirmed in every cited guide. The description ('Kinda hot in these Rhinos') points at a Rhino tank encounter.",
+   "pitfalls": "Trigger unconfirmed — checked against the published guides in Sources & methodology, none confirms a method — so do not burn hours on a single theory. One unverified guess is that it involves entering or escaping a Rhino tank, but no published guide confirms that; move on if a brief attempt does not pop it.",
    "steps": [
     "Raise heat until military vehicles respond, or find a Rhino",
     "Interact with the tank — enter it, or escape it",
@@ -798,6 +877,15 @@
     {
      "name": "PowerPyx — GTA 6 Trophy Guide & Roadmap · Challenging Tank",
      "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+    },
+    {
+     "name": "GTABase — GTA 6 Trophy & Achievement List"
+    },
+    {
+     "name": "KeenGamer — GTA 6 Trophy Guide & Platinum Roadmap"
+    },
+    {
+     "name": "GTA-Zone — GTA 6 Trophy List: All 55 Trophies and Achievements"
     }
    ],
    "triggerUnconfirmed": true
@@ -810,6 +898,8 @@
    "kind": "freeroam",
    "missable": false,
    "guide": "Rob a jewelry store without being detected — the stealth counterpart to the loud robbery trophies. Case the store, go in quietly, take the goods and leave before any alarm or witness raises your profile. Jewelry stores belong to the same smash-and-grab robbery family used by several other trophies, so their locations are shared knowledge in the guides. Tip: visit at a quiet hour, park the getaway out of sight, and keep weapons holstered — detection, not speed, is the fail state.",
+   "unlock": "In free roam: rob a jewelry store and leave without being detected — the stealth counterpart to the loud robbery trophies.",
+   "pitfalls": "Detection, not speed, is the fail state: a witness or an alarm voids the run. Go at a quiet hour, park the getaway out of sight and keep weapons holstered.",
    "steps": [
     "Find a jewelry store robbery location",
     "Enter quietly with no witnesses alerted",
@@ -830,7 +920,9 @@
    "kind": "freeroam",
    "missable": false,
    "count": 5,
-   "guide": "Rob five bank vaults and escape cleanly. There are eight vaults in total; the trophy needs any five, while the 100% checklist wants all eight, so treat every vault as permanent progress. The vaults open up through an optional mission in Chapter 4, and a vault job always brings a 4-star response. Tip from the guides: stage a fast bike at the exit before you go in — the escape, not the robbery, is where these runs fail.",
+   "guide": "Rob five bank vaults and escape cleanly. There are eight vaults in total; the trophy needs any five, while the 100% checklist wants all eight, so treat every vault as permanent progress. The vaults open up through an optional mission in Chapter 4, and a vault job always brings a 4-star response. Tip from PowerPyx: stage a fast bike at the exit before you go in — the escape, not the robbery, is where these runs fail.",
+   "unlock": "After the optional Chapter 4 mission opens the bank vaults: rob 5 different vaults and escape each time. Eight vaults exist, and the 100% checklist wants all eight.",
+   "pitfalls": "The escape, not the robbery, is where these runs fail — stage a fast bike at the exit before you go in, because every vault job brings a 4-star response. Treat every vault as permanent progress toward the 100% checklist. This card's tracker counts distinct vaults — re-robbing the same vault does not advance it.",
    "steps": [
     "Unlock bank vaults via the optional Chapter 4 mission",
     "Rob a vault and take the money",
@@ -856,6 +948,8 @@
    "kind": "freeroam",
    "missable": false,
    "guide": "Rob an armored truck and escape. Armored trucks are free-roam robbery targets: force the rear doors open, grab the cash, and lose the response. A single successful job is the whole requirement — no chain, stealth or partner condition. Tip: pin the truck somewhere with a quick exit route, and change vehicles once the heat is on; the cash also feeds your Marked Bills laundering for Dime on the Dollar.",
+   "unlock": "In free roam: rob one armored truck and escape. A single successful job is the whole requirement — no chain, stealth or partner condition.",
+   "pitfalls": "Forcing the truck open somewhere with no exit route wastes the cash and the attempt — pin it near a quick escape, and change vehicles once the heat is on. The cash also feeds Dime on the Dollar's laundering counter.",
    "steps": [
     "Find an armored truck in free roam",
     "Force it open and take the cash",
@@ -875,7 +969,10 @@
    "grade": "bronze",
    "kind": "collectibles",
    "missable": false,
+   "count": 52,
    "guide": "Explore all of Leonida — the whole state unfogged, counted as 52 areas in the list data. This comes naturally across a platinum run: story travel, collectible hunts and the exploration filters push you into every corner of the map. The map's Exploration view lists areas and what they hold, which doubles as your cleanup tool. Tip: leave this until late; by then only a few fogged pockets should remain, and an aircraft makes short work of them.",
+   "unlock": "When the last of Leonida's 52 areas is visited and the whole state is unfogged. This card's tracker counts areas explored, of 52.",
+   "pitfalls": "Hunting fog early wastes trips — story travel and collectible hunts unfog most of the state on their own. Leave it late, when only a few pockets remain, and clear those by aircraft using the Exploration view.",
    "steps": [
     "Travel every region of Leonida",
     "Use the map to find still-fogged areas",
@@ -895,7 +992,10 @@
    "grade": "bronze",
    "kind": "freeroam",
    "missable": false,
+   "count": 9,
    "guide": "Rob an illegal operation belonging to each gang — one per gang, nine gangs in the list data. Gang operations are marked criminal sites on the map; you do not need to clear them all, just hit every gang once. These robberies also feed the robbery category of the 100% checklist, which is required in full. Tip: keep a simple tally by gang name — the last unrobbed gang is usually the one whose territory you rarely visit.",
+   "unlock": "In free roam: rob one illegal operation belonging to each of the 9 gangs. This card's tracker counts gangs covered, of 9.",
+   "pitfalls": "Re-robbing the same gang's operations adds nothing here — this card's tracker tallies distinct gangs, not total robberies — so keep a tally by gang name. The last unrobbed gang is usually the one whose territory you rarely visit; these robberies also feed the 100% checklist's robbery category, which is required in full.",
    "steps": [
     "Identify each gang's illegal operations on the map",
     "Rob one operation per gang",
@@ -916,6 +1016,8 @@
    "kind": "freeroam",
    "missable": false,
    "guide": "Have a cocktail with a view on Ocean Beach. This is one of the list's one-off world moments: a specific leisure interaction at the Ocean Beach area rather than a mission or a counter. Look for the interaction prompt at a beachfront spot with the view the description promises, and take the drink. Tip: go in free roam at a relaxed moment — no wanted level, no mission active — and work along the beachfront bars of Ocean Beach.",
+   "unlock": "In free roam at Ocean Beach: take the cocktail-with-a-view interaction at a beachfront spot — a one-off world moment, not a mission or a counter.",
+   "pitfalls": "Arriving with a wanted level or a mission active can suppress world interactions. Go at a relaxed moment and work along the beachfront bars of Ocean Beach until the prompt appears.",
    "steps": [
     "Travel to Ocean Beach",
     "Find the cocktail spot with a view",
@@ -936,6 +1038,8 @@
    "kind": "freeroam",
    "missable": false,
    "guide": "Smash your way out of a vehicle showroom 'in classic style' — drive a car out through the showroom glass. Vehicle showrooms are Vice City's car dealerships: get into a display car (or bring your own inside) and exit through the windows rather than the door. The published guides pin this to a specific showroom moment with screenshots. Tip: pick a showroom with big street-facing glass and a car already on the floor.",
+   "unlock": "In free roam at a vehicle showroom: get into a car inside and drive out through the showroom glass.",
+   "pitfalls": "Leaving by the door is the classic wasted trip — the exit must be through the glass. Pick a showroom with big street-facing glass and a car already on the floor; the published guides pin this to a specific showroom moment.",
    "steps": [
     "Enter a vehicle showroom",
     "Get into a car inside",
@@ -956,6 +1060,8 @@
    "kind": "freeroam",
    "missable": false,
    "guide": "Do the 'follow-through' at the Kolt & Associates bowling alley — a bowling action at that specific alley ('follow-through' is the bowler's arm motion after releasing the ball). Bowling is also one of the nine activity types, so a proper game here covers ground for Master of None as well. Play a real game at the Kolt alley rather than looking for a shortcut. Tip: combine the visit with Ten Pin, the list's other bowling pun, if you can engineer its melee drive-by nearby.",
+   "unlock": "At the Kolt & Associates bowling alley specifically: play a bowling game there and complete the follow-through action.",
+   "pitfalls": "Playing at any other alley does not count — it must be the Kolt & Associates alley. A proper game there also samples bowling for Master of None, so play it through rather than looking for a shortcut.",
    "steps": [
     "Find the Kolt & Associates bowling alley",
     "Play a bowling game there",
@@ -975,7 +1081,9 @@
    "grade": "bronze",
    "kind": "freeroam",
    "missable": false,
-   "guide": "Another of the list's deliberately vague one-offs: 'a partnership with mass appeal'. Read together with the partner trophies, it points at a Jason-and-Lucia moment performed in public — the kind of thing the game's social layer celebrates. The cited guides had not pinned down the exact trigger at the time of writing, so treat this as an exploration trophy: try partner activities in busy public places once both protagonists are playable together. Tip: if it pops unexpectedly, note what you were doing — this is one of the trophies the community is still documenting. Sources checked — PowerPyx, GTABase, KeenGamer and GTA-Zone: none of them documents a confirmed, tested trigger for this trophy, so follow the official description.",
+   "guide": "Another of the list's deliberately vague one-offs: 'a partnership with mass appeal'. Read together with the partner trophies, it points at a Jason-and-Lucia moment performed in public — the kind of thing the game's social layer celebrates. The cited guides had not pinned down the exact trigger at the time of writing, so treat this as an exploration trophy: try partner activities in busy public places once both protagonists are playable together. Tip: if it pops unexpectedly, note what you were doing — this is one of the trophies the community is still documenting. Checked against the published guides in Sources & methodology — none documents a confirmed, tested trigger for this trophy, so follow the official description.",
+   "unlock": "Trigger unconfirmed in every cited guide. Read with the partner trophies, it likely points to a Jason-and-Lucia moment in public, once both protagonists are playable together (Chapter 2 onward) — no published method confirms this trigger.",
+   "pitfalls": "No published method confirms this trigger — checked against the published guides in Sources & methodology, none confirms a method — so do not stall a run hunting it early. Try partner activities in busy public places, let it surface during cleanup, and note what you were doing if it pops.",
    "steps": [
     "Play with both protagonists together",
     "Do partner activities in busy public places",
@@ -985,6 +1093,15 @@
     {
      "name": "PowerPyx — GTA 6 Trophy Guide & Roadmap · Personal Best",
      "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+    },
+    {
+     "name": "GTABase — GTA 6 Trophy & Achievement List"
+    },
+    {
+     "name": "KeenGamer — GTA 6 Trophy Guide & Platinum Roadmap"
+    },
+    {
+     "name": "GTA-Zone — GTA 6 Trophy List: All 55 Trophies and Achievements"
     }
    ],
    "triggerUnconfirmed": true
@@ -997,7 +1114,9 @@
    "kind": "freeroam",
    "missable": false,
    "count": 500,
-   "guide": "PlayStation tracks this as a counter that runs to 500 — the game's dialogue and interaction choices. In other words it is cumulative: choices made across story conversations and world interactions add up, and the trophy lands when the counter completes. Despite the ominous description ('for better or worse'), no cited guide flags it as missable or branch-locking; the separate 'Irredeemable' criminal profile is permanent, but the guides confirm it does not affect trophies. Tip: talk to people and take optional interactions as you go instead of skipping conversations, and the counter fills itself.",
+   "guide": "PlayStation tracks this as a counter that runs to 500 — the game's dialogue and interaction choices. In other words it is cumulative: choices made across story conversations and world interactions add up, and the trophy lands when the counter completes. Despite the ominous description ('for better or worse'), no cited guide flags it as missable or branch-locking; the separate 'Irredeemable' criminal profile is permanent, but PowerPyx confirms it does not affect trophies. Tip: talk to people and take optional interactions as you go instead of skipping conversations, and the counter fills itself.",
+   "unlock": "Cumulative across the whole game: PlayStation tracks dialogue and interaction choices to 500. It is not tied to one chapter, branch or ending.",
+   "pitfalls": "It is NOT missable — no single choice can lock it, and the permanent 'Irredeemable' criminal profile does not affect trophies, per PowerPyx. The only waste is skipping conversations: take optional interactions as you go and the counter fills itself.",
    "steps": [
     "Take dialogue choices and optional interactions",
     "Keep choosing rather than skipping conversations",
@@ -1017,7 +1136,9 @@
    "grade": "bronze",
    "kind": "freeroam",
    "missable": false,
-   "guide": "'Second time's the charm' — the natural reading is: fail at something, then succeed at the same thing on the retry. The cited guides had not confirmed the exact activity at the time of writing, which makes this an experiment trophy: when a challenge, race or activity attempt fails, retry it immediately and win. Tip: keep a mental note the first time you retry-and-win anything; if the trophy does not pop, move to the next activity type and repeat the pattern there. Sources checked — PowerPyx, GTABase, KeenGamer and GTA-Zone: none of them documents a confirmed, tested trigger for this trophy, so follow the official description.",
+   "guide": "'Second time's the charm' — the natural reading is: fail at something, then succeed at the same thing on the retry. The cited guides had not confirmed the exact activity at the time of writing, which makes this an experiment trophy: when a challenge, race or activity attempt fails, retry it immediately and win. Tip: keep a mental note the first time you retry-and-win anything; if the trophy does not pop, move to the next activity type and repeat the pattern there. Checked against the published guides in Sources & methodology — none documents a confirmed, tested trigger for this trophy, so follow the official description.",
+   "unlock": "Trigger unconfirmed in every cited guide. The description ('Second time's the charm') reads as: fail at an activity, then succeed at the same thing on the immediate retry.",
+   "pitfalls": "No published method confirms which activity it belongs to — checked against the published guides in Sources & methodology, none confirms a method — so make retry-and-win a habit everywhere instead of grinding one guessed activity: whenever an attempt fails, retry it at once and win before moving on.",
    "steps": [
     "Attempt an activity and let an attempt fail",
     "Retry the same activity at once",
@@ -1027,6 +1148,15 @@
     {
      "name": "PowerPyx — GTA 6 Trophy Guide & Roadmap · Bad Luck, I Guess",
      "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+    },
+    {
+     "name": "GTABase — GTA 6 Trophy & Achievement List"
+    },
+    {
+     "name": "KeenGamer — GTA 6 Trophy Guide & Platinum Roadmap"
+    },
+    {
+     "name": "GTA-Zone — GTA 6 Trophy List: All 55 Trophies and Achievements"
     }
    ],
    "triggerUnconfirmed": true
@@ -1038,9 +1168,11 @@
    "grade": "bronze",
    "kind": "freeroam",
    "missable": false,
-   "guide": "A hidden oddity trophy: 'What the hell just happened?' Guide sites list its unlock method as unconfirmed; the name is an X-Files nod, and it belongs to the list's UFO-and-strangeness corner, so it is expected to pop when you witness a specific strange event in the world. Until the community pins it down, the honest strategy is exploration: investigate odd sightings, especially at night and in the remote corners of Leonida. Tip: this is a cleanup-stage trophy — do not stall your run hunting it early. Sources checked — PowerPyx, GTABase, KeenGamer and GTA-Zone: none of them documents a confirmed, tested trigger for this trophy, so follow the official description.",
+   "guide": "A hidden oddity trophy: 'What the hell just happened?' Guide sites list its unlock method as unconfirmed; the name is an X-Files nod, and it belongs to the list's UFO-and-strangeness corner, so it is expected to pop when you witness a specific strange event in the world. Until the community pins it down, the honest strategy is exploration: investigate odd sightings in the remote corners of Leonida. Tip: this is a cleanup-stage trophy — do not stall your run hunting it early. Checked against the published guides in Sources & methodology — none documents a confirmed, tested trigger for this trophy, so follow the official description.",
+   "unlock": "Trigger unconfirmed in every cited guide: a hidden oddity, expected to pop when you witness a specific strange event in the world — the list's UFO-and-strangeness corner.",
+   "pitfalls": "No published method confirms this trigger — checked against the published guides in Sources & methodology, none confirms a method — so treat it as a cleanup-stage trophy: explore remote corners, but never stall story progress hunting it.",
    "steps": [
-    "Explore remote areas, especially at night",
+    "Explore remote areas",
     "Investigate strange sightings or events",
     "Witness the event fully when you find it"
    ],
@@ -1048,6 +1180,15 @@
     {
      "name": "KeenGamer — GTA 6 Trophy Guide & Platinum Roadmap",
      "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+    },
+    {
+     "name": "PowerPyx — GTA 6 Trophy Guide & Roadmap"
+    },
+    {
+     "name": "GTABase — GTA 6 Trophy & Achievement List"
+    },
+    {
+     "name": "GTA-Zone — GTA 6 Trophy List: All 55 Trophies and Achievements"
     }
    ],
    "triggerUnconfirmed": true
@@ -1059,9 +1200,11 @@
    "grade": "bronze",
    "kind": "freeroam",
    "missable": false,
-   "guide": "Knock a person down by striking them with a melee attack from a moving vehicle — the 'melee drive-by'; the bowling name is a pun on knocking down a pin. Ride or drive past a pedestrian and swing a melee weapon so the hit lands while you are still moving. Guide sites note the precise method was still being confirmed at the time of writing. Tip: a motorcycle at moderate speed gives you the reach and control for this; pick a lone pedestrian and swing early. Sources checked — PowerPyx, GTABase, KeenGamer and GTA-Zone: none of them documents a confirmed, tested trigger for this trophy, so follow the official description.",
+   "guide": "Knock a person down by striking them with a melee attack from a moving vehicle — the 'melee drive-by'; the bowling name is a pun on knocking down a pin. Ride or drive past a pedestrian and swing a melee weapon so the hit lands while you are still moving. Guide sites note the precise method was still being confirmed at the time of writing. Tip: pick a lone pedestrian and swing early. Checked against the published guides in Sources & methodology — none documents a confirmed, tested trigger for this trophy, so follow the official description.",
+   "unlock": "Trigger unconfirmed in every cited guide. The description asks for a melee drive-by: strike a pedestrian with a melee attack from a moving vehicle so the hit lands while you are still moving.",
+   "pitfalls": "No published method confirms the precise method — checked against the published guides in Sources & methodology, none confirms a method. One unverified approach: use a motorcycle at moderate speed for reach and control; swinging too late, after you have passed the pedestrian, is the wasted attempt.",
    "steps": [
-    "Take a melee weapon and a vehicle — a bike works best",
+    "Take a melee weapon and a vehicle",
     "Ride past a pedestrian at moderate speed",
     "Land a melee hit while moving"
    ],
@@ -1069,6 +1212,15 @@
     {
      "name": "KeenGamer — GTA 6 Trophy Guide & Platinum Roadmap",
      "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+    },
+    {
+     "name": "PowerPyx — GTA 6 Trophy Guide & Roadmap"
+    },
+    {
+     "name": "GTABase — GTA 6 Trophy & Achievement List"
+    },
+    {
+     "name": "GTA-Zone — GTA 6 Trophy List: All 55 Trophies and Achievements"
     }
    ],
    "triggerUnconfirmed": true
@@ -1082,6 +1234,8 @@
    "missable": false,
    "count": 250000,
    "guide": "Launder $250,000 of Marked Bills through your contacts. Marked Bills come from robberies; your fences and contacts wash them into clean money, and it is the cumulative laundered total that counts. This pairs naturally with the robbery trophies — every vault, truck and gang operation feeds it. Tip: never sit on marked bills; launder after every job so the counter keeps moving while you work on other stages.",
+   "unlock": "Cumulative across the robbery stages: launder Marked Bills through your contacts and fences until $250,000 has been washed in total.",
+   "pitfalls": "Sitting on marked bills stalls the counter — launder after every job, so robbery progress and laundering progress move together instead of leaving a laundering grind for the end.",
    "steps": [
     "Collect Marked Bills from robberies",
     "Take them to your contacts and fences",
@@ -1103,6 +1257,8 @@
    "missable": false,
    "count": 100000,
    "guide": "Spend $100,000 across all shops, counted cumulatively. Clothing, vehicles, weapons and services all feed the one total, so an ordinary geared-up playthrough gets most of the way there on its own. It is effectively unmissable on a platinum run. Tip: if you are short late in the game, vehicle purchases and garage properties (see Little Boxes) burn money fastest.",
+   "unlock": "Cumulative across the whole run: spend $100,000 across all shops — clothing, vehicles, weapons and services all feed the one total.",
+   "pitfalls": "Hoarding cash slows it for no benefit — an ordinary geared-up playthrough covers most of the total on its own. If you are short late in the game, vehicle purchases and garage properties burn money fastest.",
    "steps": [
     "Spend money in any shops as you play",
     "Let big purchases — vehicles, property — feed the total",
@@ -1122,7 +1278,10 @@
    "grade": "bronze",
    "kind": "economy",
    "missable": false,
+   "count": 8,
    "guide": "Buy all eight garage properties. Garages are purchasable properties across Leonida, and each needs its price ready, which makes this a mid-to-late-game trophy once robbery income is flowing. Owning them also gives your vehicle collection homes, which supports the discovery and registration trophies. Tip: buy garages as new areas open up rather than saving for a single spree — the map coverage helps everything else on the list.",
+   "unlock": "Mid-to-late game, once robbery income is flowing: purchase all 8 garage properties across Leonida. This card's tracker counts garages owned, of 8.",
+   "pitfalls": "Saving for one late spree wastes the map coverage the garages give you — buy each as its area opens. Each purchase needs its price ready, so keep robbery income flowing rather than draining cash elsewhere first.",
    "steps": [
     "Earn money through robberies and missions",
     "Buy each garage property as areas open",
@@ -1144,6 +1303,8 @@
    "missable": false,
    "count": 10,
    "guide": "Register 10 vehicles to the Scooter Bros app. When you acquire a vehicle you want to keep, register it through the app so it becomes yours; ten registrations complete the trophy. It pairs with Whip It Good: scan broadly for discoveries, then register the keepers. Tip: register vehicles you actually use — your personal vehicles double as the fastest travel options for the cleanup stages.",
+   "unlock": "Any time you acquire vehicles: register 10 of them in the Scooter Bros app so they become yours.",
+   "pitfalls": "Registering throwaway cars wastes the slots' usefulness — register keepers you actually drive; your personal vehicles double as the fastest travel options for the cleanup stages.",
    "steps": [
     "Acquire a vehicle you want to keep",
     "Register it in the Scooter Bros app",
@@ -1159,7 +1320,7 @@
  ],
  "roadmap": {
   "title": "Roadmap to the Platinum — Vice Got a Price!",
-  "intro": "One playthrough, no difficulty settings and no online trophies: the published guides put the platinum at roughly 200 hours and a 4/10 difficulty. There is no mission replay, but free roam continues after the story, so almost everything can be cleaned up post-credits. Keep a manual save at the start and end of every chapter (the game offers 15 manual slots) and never use cheats on a trophy run — they disable trophies and saving.",
+  "intro": "One playthrough, no difficulty settings and no online trophies: PowerPyx's and KeenGamer's roadmaps put the platinum at roughly 200 hours and a 4/10 difficulty. There is no mission replay, but free roam continues after the story, so almost everything can be cleaned up post-credits. Keep a manual save at the start and end of every chapter and rotate the spare slots, and never use cheats on a trophy run — they disable trophies and saving. Stage effort notes are estimates derived from each stage's composition, following PowerPyx's and KeenGamer's roadmaps. Estimates such as roughly 200 hours and 4/10 difficulty are from PowerPyx's and KeenGamer's published roadmaps — see Sources & methodology.",
   "stages": [
    {
     "stage": 1,
@@ -1170,16 +1331,17 @@
      4,
      5,
      6,
+     7,
      8,
      9,
      10,
      11,
      12,
-     13,
-     7
+     13
     ],
-    "rationale": "The five chapters (about 60–80 hours) award every story trophy automatically on completion, in list order from Gone Fishing to the final mission. Do the Chapter 1 balcony meditation during this stage (see the missables note), take optional missions as they appear, and scan vehicles and study animals as you travel — all of it counts toward later stages.",
-    "warning": "Chapter 1 expiry: Lucia’s balcony meditation at Jason’s house (Positive Mental Attitude) becomes unavailable the moment Chapter 1 ends — do it before you finish the chapter."
+    "rationale": "The five chapters (PowerPyx's roadmap puts them at about 60–80 hours) award every story trophy automatically on completion, in list order from Gone Fishing to the final mission. Do the Chapter 1 balcony meditation during this stage: that spot belongs to Positive Mental Attitude, whose 18-spot counter is worked in stage 3, but the balcony itself must be done here, during stage 1 (see the missables note). Take optional missions as they appear, and scan vehicles and study animals as you travel — all of it counts toward later stages.",
+    "warning": "Chapter 1 window: Lucia's balcony meditation at Jason's house (Positive Mental Attitude) becomes unavailable when Chapter 1 ends, per PowerPyx and GTABase — do it before you finish the chapter. The balcony spot belongs to Positive Mental Attitude, whose 18-spot counter is worked in stage 3, but the balcony must be done during this stage. If that balcony spot counts toward the 18, missing it would force a fresh playthrough; published sources do not resolve whether it counts, so this is the safe default. A Long Road is never at risk from this one: its 100% checklist needs only 15 of the 18 spots.",
+    "effort": "Effort estimate: the bulk of the run — PowerPyx puts the five chapters at about 60–80 hours of the roughly 200-hour platinum. 12 trophies, all automatic on completion."
    },
    {
     "stage": 2,
@@ -1193,7 +1355,8 @@
      27,
      29
     ],
-    "rationale": "Finish the named characters' final missions — Andy (Lucia), Kenton, Billy, Randy, Tyrone (Jason) — and Bret's hunting line, and complete eight qualifying stranger strands for the Strangers & Freaks silver. Trophy quest givers all return after the story, so nothing here can be locked out."
+    "rationale": "Finish the six named character quest lines — Andy (Lucia), Kenton, Billy, Randy and Tyrone (Jason), plus Bret's hunting line — and complete eight qualifying stranger strands for the Strangers & Freaks silver: six named character quest lines plus the Strangers & Freaks silver itself make this stage's 7 trophies. Trophy quest givers all return after the story, and PowerPyx and KeenGamer list no lockout in this stage.",
+    "effort": "Effort estimate: a medium stage — 7 trophies, all multi-mission strands rather than counters, so progress comes in whole missions at a time (estimate from PowerPyx's strand breakdowns)."
    },
    {
     "stage": 3,
@@ -1205,7 +1368,8 @@
      35,
      42
     ],
-    "rationale": "The map-wide counters: all 18 meditation spots, 3 full card sets, 100 WAiNK locations, 100 discovered vehicles and every area of Leonida explored. These reward steady habits during the story more than a dedicated grind at the end."
+    "rationale": "The map-wide counters: all 18 meditation spots — the first of them was the Chapter 1 balcony handled in stage 1 — 3 full card sets, 100 WAiNK locations, 100 discovered vehicles and every area of Leonida explored. These reward steady habits during the story more than a dedicated grind at the end.",
+    "effort": "Effort estimate: small if built as habits during stage 1, large if left to the end — 5 trophies but four big counters (18 spots, 3 sets, 100 WAiNK uses, 100 vehicles) plus full map exploration."
    },
    {
     "stage": 4,
@@ -1220,7 +1384,8 @@
      21,
      32
     ],
-    "rationale": "250 stunts, one try of each of the nine activity types, all 42 shooting-range golds, a drone-race win at all 14 locations, 20 race wins, Cal's fishing challenge, one arcade game and 50 challenges. The shooting ranges and drone races are required in full by the 100% checklist, so this stage is on the critical path."
+    "rationale": "250 stunts, one try of each of the nine activity types, all 42 shooting-range golds, a drone-race win at all 14 locations, 20 race wins, Cal's fishing challenge, one arcade game and 50 challenges. The shooting ranges and drone races are required in full by the 100% checklist (Push Square's 100% checklist breakdown), so this stage is on the critical path.",
+    "effort": "Effort estimate: the skill-heavy stage — 8 trophies, dominated by the 42 shooting-range golds and 250 stunts; the ranges and drone races are required in full by the 100% checklist (Push Square's breakdown), so none of it is wasted (estimate from PowerPyx's guide)."
    },
    {
     "stage": 5,
@@ -1244,18 +1409,20 @@
      50,
      51
     ],
-    "rationale": "The one-off moments and the robbery set: partner feats, five bank vaults, an armored truck, one illegal operation per gang, a stealth jewelry job, and the list's oddball world moments. Robberies are required in full by the 100% checklist and generate the Marked Bills that stage 6 launders."
+    "rationale": "The one-off moments and the robbery set: partner feats, five bank vaults, an armored truck, one illegal operation per gang, a stealth jewelry job, and the list's oddball world moments. Robberies are required in full by the 100% checklist (Push Square's 100% checklist breakdown) and generate the Marked Bills that stage 6 launders.",
+    "effort": "Effort estimate: the widest stage — 17 trophies, mostly one-off moments that take minutes each once set up, plus the robbery set; the long pole inside it is Actions Speak Louder's cumulative 500 choices, which fills across the whole run rather than in this stage alone."
    },
    {
     "stage": 6,
     "name": "Money and property",
     "trophyIds": [
      52,
-     53,
+         53,
      54,
      55
     ],
-    "rationale": "Launder $250,000 of Marked Bills, spend $100,000 across shops, buy all eight garages and register 10 vehicles to the Scooter Bros app. These complete themselves if you launder after every robbery and buy property as areas open."
+    "rationale": "Launder $250,000 of Marked Bills, spend $100,000 across shops, buy all eight garages and register 10 vehicles to the Scooter Bros app. These complete themselves if you launder after every robbery and buy property as areas open.",
+    "effort": "Effort estimate: the lightest stage — 4 trophies that complete themselves if stage 5's robberies are laundered as you go and garages are bought as areas open (estimate from PowerPyx's guide)."
    },
    {
     "stage": 7,
@@ -1263,7 +1430,8 @@
     "trophyIds": [
      14
     ],
-    "rationale": "After the credits, work the checklist at Progress > Stats > 100% Completion: it is roughly 60% true completion, needs the fully-required categories plus 70 of 80 challenges and 100 optional missions, and nothing on it is missable."
+    "rationale": "After the credits, work the checklist at Progress > Stats > 100% Completion: Push Square's 100% checklist breakdown puts it at roughly 60% true completion; it needs the fully-required categories plus 70 of 80 challenges and 100 optional missions (Push Square's checklist figures), and the cited guides list nothing missable on it.",
+    "effort": "Effort estimate: 1 trophy, but the list's biggest single time sink — KeenGamer's roadmap puts most of the roughly 200-hour run inside this checklist (see the rationale above for its share of true completion)."
    },
    {
     "stage": 8,
@@ -1271,7 +1439,8 @@
     "trophyIds": [
      1
     ],
-    "rationale": "With every other trophy earned — the story set, the strands, the counters, the activities and A Long Road — the platinum pops on its own; there is nothing extra to do. If it does not pop, one cleanup trophy is still missing: compare your earned list against the checklist."
+    "rationale": "With every other trophy earned — the story set, the strands, the counters, the activities and A Long Road — the platinum pops on its own; there is nothing extra to do. If it does not pop, one cleanup trophy is still missing: compare your earned list against the checklist.",
+    "effort": "Effort estimate: none — the platinum pops on its own once stages 1–7 are done."
    }
   ],
   "missables": {
@@ -1286,10 +1455,10 @@
     }
    ],
    "alsoGoodToKnow": [
-    "There is no mission replay and no New Game+, so keep a manual save at the start and end of each chapter (15 manual slots are available) and rotate the spares.",
+    "There is no mission replay and no New Game+, so keep a manual save at the start and end of each chapter and rotate the spares.",
     "Cheats disable trophies and saving — keep them off for the whole trophy run; they only unlock after the credits anyway.",
     "Several optional missions and quest givers disappear or pause during the story, but the guides confirm none of them gate a trophy: every trophy quest giver returns, including after the story.",
-    "The 'Irredeemable' criminal profile is permanent once earned and makes police more aggressive, but the guides confirm it does not block any trophy."
+    "The 'Irredeemable' criminal profile is permanent once earned and makes police more aggressive, but PowerPyx confirms it does not block any trophy."
    ],
    "cleared": [
     {
@@ -1299,6 +1468,37 @@
     }
    ]
   }
+ },
+ "platinumPlan": {
+  "title": "Platinum plan — the shape of the whole run",
+  "composition": "The list: 1 platinum, 2 gold, 6 silver and 46 bronze — 55 trophies, 28 of them hidden on PlayStation until earned. Everything is single-player: no online trophies and no difficulty trophies, so one playthrough on any settings earns the lot. Estimates such as roughly 200 hours and 4/10 difficulty are from PowerPyx's and KeenGamer's published roadmaps — see Sources & methodology.",
+  "phases": [
+   {
+    "name": "1 · Story run",
+    "detail": "Play the five chapters start to finish (roadmap stage 1). Every story trophy is automatic; take optional missions as they appear and build the scanning, WAiNK and animal-study habits that feed the later counters."
+   },
+   {
+    "name": "2 · Chapter 1 missable window",
+    "detail": "Inside the story run, before Chapter 1 ends: after Down to Earth, follow Lucia to the balcony at Jason's house and accept the morning meditation — the Positive Mental Attitude window, per PowerPyx and GTABase. If that balcony spot counts toward the 18, missing it would force a fresh playthrough; sources do not resolve whether it counts, so do the two-minute safe play and keep a Chapter 1 save."
+   },
+   {
+    "name": "3 · Cumulative grinds",
+    "detail": "The counters that fill across the whole run rather than in one sitting: 500 choices (Actions Speak Louder), 250 stunts, 100 WAiNK locations, 100 discovered vehicles, $250,000 laundered and $100,000 spent. Weave them into travel and robberies instead of saving them for the end."
+   },
+   {
+    "name": "4 · Cleanup",
+    "detail": "Post-credits free roam: finish the strands, the one-off world moments and the robbery set, then work the 100% Completion checklist itself (Progress > Stats) until A Long Road lands — the fully-required categories first, the ten skippable challenges last."
+   },
+   {
+    "name": "5 · Platinum",
+    "detail": "With the other 54 earned, Vice Got a Price! pops on its own. If it does not, audit the checklist for one missed cleanup trophy."
+   }
+  ],
+  "longPoles": [
+   "Actions Speak Louder — the cumulative counter to 500 choices; it fills across the whole run, so never skip conversations.",
+   "The Shootist — gold medals in all 42 Shooting Range challenges across the 12 ranges, also required in full by the 100% checklist (Push Square's 100% checklist breakdown).",
+   "A Long Road — the 100% Completion checklist itself: Push Square's checklist breakdown puts it at roughly 60% true completion, and KeenGamer's roadmap puts most of the roughly 200-hour run inside it."
+  ]
  },
  "methodology": {
   "title": "Sources & methodology",
@@ -1328,7 +1528,8 @@
   "notes": [
    "Trophy names, descriptions and grades are the official PlayStation list (2026-11-18), reproduced verbatim and verified byte-identical against it — that verbatim text is labelled “Official description” on every card. The tracker data behind the official list comes via PSNProfiles and Exophase; both are cited by name only, because their GTA VI pages could not be verified, so no links are given for them.",
    "The Shooting Range total of 42 challenges (The Shootist) follows the make.fun gta6-trophy-guide-01 competition rules text, which states it directly.",
-   "Missable flags were screened trophy by trophy against the official descriptions and the guides above; the reasoning is shown in the roadmap’s missable panel."
+   "Missable flags were screened trophy by trophy against the official descriptions and the guides above; the reasoning is shown in the roadmap’s missable panel.",
+   "New in this edition: every trophy also carries a 'When it unlocks' line and a 'Pitfalls' line, both written from the official description and the same cited guides — where no published guide confirms a trigger (The Truth Is Out There, Ten Pin, Personal Best, Bad Luck, I Guess, Challenging Tank), the card says so and names the sources checked rather than inventing a method. Counters follow the targets PlayStation tracks or the totals stated in the cited guides (9 activity types, 14 drone-race locations, 52 areas, 9 gangs, 8 garages, the 100% checklist percentage)."
   ]
  }
 }
